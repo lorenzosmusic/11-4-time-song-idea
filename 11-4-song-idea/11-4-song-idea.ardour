@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="11-4-song-idea" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="11124" name-counter="1" event-counter="168531" vca-counter="1">
+<Session version="6000" name="11-4-song-idea" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="14291" name-counter="1" event-counter="178511" vca-counter="1">
   <ProgramVersion created-with="Ardour 6.9.0~ds0-1build1" modified-with="Ardour 6.9.0~ds0-1build1"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
@@ -292,8 +292,12 @@
     <Region name="cliff bass-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="688112" position="253096" beat="11.000015117157973" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11013" type="audio" first-edit="nothing" source-0="10994" master-source-0="10994" channels="1"/>
     <Region name="cliff bass-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="2856432" position="253096" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11043" type="audio" first-edit="nothing" source-0="11032" master-source-0="11032" channels="1"/>
     <Region name="cliff bass-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="2318320" position="253096" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11085" type="audio" first-edit="nothing" source-0="11075" master-source-0="11075" channels="1"/>
+    <Region name="cliff bass-4.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="759291" length="253098" position="0" beat="0" sync-position="759291" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="13994" type="audio" first-edit="nothing" source-0="11075" master-source-0="11075" channels="1"/>
+    <Region name="cliff bass-4.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="759291" length="253098" position="1265484" beat="55.000249433106575" sync-position="759291" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="14007" type="audio" first-edit="nothing" source-0="11075" master-source-0="11075" channels="1"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="10904" control="0" order="3"/>
+  </Selection>
   <Locations>
     <Location id="318" name="session" start="253096" end="3037148" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1722918414"/>
     <Location id="466" name="Loop" start="253096" end="3037148" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1722918764"/>
@@ -867,7 +871,7 @@
       <Controllable name="rec-safe" id="642" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="640" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="6000" id="10904" name="cliff bass" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="11073" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
+    <Route version="6000" id="10904" name="cliff bass" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="14047" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
       <PresentationInfo order="5" flags="AudioTrack,OrderSet" color="3856457727"/>
       <Controllable name="solo" id="10912" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="10918" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -925,7 +929,129 @@
         <Automation>
           <AutomationList automation-id="gain" id="10907" interpolation-style="Exponential" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="10908" flags="GainLike" value="1"/>
+        <Controllable name="gaincontrol" id="10908" flags="GainLike" value="0.99999994039535522"/>
+      </Processor>
+      <Processor id="14221" name="x42-eq - Parametric Equalizer Mono" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/fil4#mono" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-2" id="14222" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-3" id="14224" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="14226" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-6" id="14228" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-7" id="14230" interpolation-style="Logarithmic" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="14232" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="14234" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-10" id="14236" interpolation-style="Logarithmic" state="Off"/>
+          <AutomationList automation-id="parameter-11" id="14238" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-12" id="14240" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-13" id="14242" interpolation-style="Logarithmic" state="Off"/>
+          <AutomationList automation-id="parameter-14" id="14244" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-15" id="14246" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-16" id="14248" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-17" id="14250" interpolation-style="Logarithmic" state="Off"/>
+          <AutomationList automation-id="parameter-18" id="14252" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-19" id="14254" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-20" id="14256" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-21" id="14258" interpolation-style="Logarithmic" state="Off"/>
+          <AutomationList automation-id="parameter-22" id="14260" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-23" id="14262" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-24" id="14264" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-25" id="14266" interpolation-style="Logarithmic" state="Off"/>
+          <AutomationList automation-id="parameter-26" id="14268" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-27" id="14270" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-28" id="14272" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-29" id="14274" interpolation-style="Logarithmic" state="Off"/>
+          <AutomationList automation-id="parameter-30" id="14276" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-31" id="14278" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-32" id="14280" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-33" id="14282" interpolation-style="Logarithmic" state="Off"/>
+          <AutomationList automation-id="parameter-34" id="14284" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-35" id="14286" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="audio" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state1">
+          <Port symbol="enable" value="1"/>
+          <Port symbol="gain" value="0"/>
+          <Port symbol="peakreset" value="1"/>
+          <Port symbol="HighPass" value="1"/>
+          <Port symbol="HPfreq" value="56.828571319580078"/>
+          <Port symbol="HPQ" value="0.69999998807907104"/>
+          <Port symbol="LowPass" value="1"/>
+          <Port symbol="LPfreq" value="2006.3970947265625"/>
+          <Port symbol="LPQ" value="1"/>
+          <Port symbol="LSsec" value="1"/>
+          <Port symbol="LSfreq" value="80"/>
+          <Port symbol="LSq" value="1"/>
+          <Port symbol="LSgain" value="0"/>
+          <Port symbol="sec1" value="1"/>
+          <Port symbol="freq1" value="160"/>
+          <Port symbol="q1" value="0.60000002384185791"/>
+          <Port symbol="gain1" value="0"/>
+          <Port symbol="sec2" value="1"/>
+          <Port symbol="freq2" value="397"/>
+          <Port symbol="q2" value="0.60000002384185791"/>
+          <Port symbol="gain2" value="0"/>
+          <Port symbol="sec3" value="1"/>
+          <Port symbol="freq3" value="1250"/>
+          <Port symbol="q3" value="0.60000002384185791"/>
+          <Port symbol="gain3" value="0"/>
+          <Port symbol="sec4" value="1"/>
+          <Port symbol="freq4" value="2500"/>
+          <Port symbol="q4" value="0.60000002384185791"/>
+          <Port symbol="gain4" value="0"/>
+          <Port symbol="HSsec" value="1"/>
+          <Port symbol="HSfreq" value="8000"/>
+          <Port symbol="HSq" value="1"/>
+          <Port symbol="HSgain" value="0"/>
+        </lv2>
+        <Controllable name="Enable" id="14223" flags="Toggle" value="1" parameter="2" symbol="enable"/>
+        <Controllable name="Gain" id="14225" flags="" value="0" parameter="3" symbol="gain"/>
+        <Controllable name="Reset Peak Hold" id="14227" flags="Toggle" value="1" parameter="5" symbol="peakreset"/>
+        <Controllable name="Highpass" id="14229" flags="Toggle" value="1" parameter="6" symbol="HighPass"/>
+        <Controllable name="Highpass Frequency" id="14231" flags="" value="56.828571319580078" parameter="7" symbol="HPfreq"/>
+        <Controllable name="HighPass Resonance" id="14233" flags="" value="0.69999998807907104" parameter="8" symbol="HPQ"/>
+        <Controllable name="Lowpass" id="14235" flags="Toggle" value="1" parameter="9" symbol="LowPass"/>
+        <Controllable name="Lowpass Frequency" id="14237" flags="" value="2006.3970947265625" parameter="10" symbol="LPfreq"/>
+        <Controllable name="LowPass Resonance" id="14239" flags="" value="1" parameter="11" symbol="LPQ"/>
+        <Controllable name="Lowshelf" id="14241" flags="Toggle" value="1" parameter="12" symbol="LSsec"/>
+        <Controllable name="Lowshelf Frequency" id="14243" flags="" value="80" parameter="13" symbol="LSfreq"/>
+        <Controllable name="Lowshelf Bandwidth" id="14245" flags="" value="1" parameter="14" symbol="LSq"/>
+        <Controllable name="Lowshelf Gain" id="14247" flags="" value="0" parameter="15" symbol="LSgain"/>
+        <Controllable name="Section 1" id="14249" flags="Toggle" value="1" parameter="16" symbol="sec1"/>
+        <Controllable name="Frequency 1" id="14251" flags="" value="160" parameter="17" symbol="freq1"/>
+        <Controllable name="Bandwidth 1" id="14253" flags="" value="0.60000002384185791" parameter="18" symbol="q1"/>
+        <Controllable name="Gain 1" id="14255" flags="" value="0" parameter="19" symbol="gain1"/>
+        <Controllable name="Section 2" id="14257" flags="Toggle" value="1" parameter="20" symbol="sec2"/>
+        <Controllable name="Frequency 2" id="14259" flags="" value="397" parameter="21" symbol="freq2"/>
+        <Controllable name="Bandwidth 2" id="14261" flags="" value="0.60000002384185791" parameter="22" symbol="q2"/>
+        <Controllable name="Gain 2" id="14263" flags="" value="0" parameter="23" symbol="gain2"/>
+        <Controllable name="Section 3" id="14265" flags="Toggle" value="1" parameter="24" symbol="sec3"/>
+        <Controllable name="Frequency 3" id="14267" flags="" value="1250" parameter="25" symbol="freq3"/>
+        <Controllable name="Bandwidth 3" id="14269" flags="" value="0.60000002384185791" parameter="26" symbol="q3"/>
+        <Controllable name="Gain 3" id="14271" flags="" value="0" parameter="27" symbol="gain3"/>
+        <Controllable name="Section 4" id="14273" flags="Toggle" value="1" parameter="28" symbol="sec4"/>
+        <Controllable name="Frequency 4" id="14275" flags="" value="2500" parameter="29" symbol="freq4"/>
+        <Controllable name="Bandwidth 4" id="14277" flags="" value="0.60000002384185791" parameter="30" symbol="q4"/>
+        <Controllable name="Gain 4" id="14279" flags="" value="0" parameter="31" symbol="gain4"/>
+        <Controllable name="Highshelf" id="14281" flags="Toggle" value="1" parameter="32" symbol="HSsec"/>
+        <Controllable name="Highshelf Frequency" id="14283" flags="" value="8000" parameter="33" symbol="HSfreq"/>
+        <Controllable name="Highshelf Bandwidth" id="14285" flags="" value="1" parameter="34" symbol="HSq"/>
+        <Controllable name="Highshelf Gain" id="14287" flags="" value="0" parameter="35" symbol="HSgain"/>
       </Processor>
       <Processor id="10938" name="meter-cliff bass" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="10939" name="cliff bass" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="cliff bass" type="main-outs" role="Main">
@@ -1650,38 +1776,408 @@
         </InverseFadeOut>
       </Region>
     </Playlist>
-    <Playlist id="11073" name="droped to d" type="audio" orig-track-id="10904" pgroup-id="2024-08-07 23.20.51" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="cliff bass-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="2024776" position="253096" beat="11.000015117157973" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11093" type="audio" first-edit="nothing" source-0="11075" master-source-0="11075" channels="1">
+    <Playlist id="14047" name="drop d loop" type="audio" orig-track-id="10904" pgroup-id="2024-08-08 01.02.52" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="cliff bass-4.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="759291" length="253098" position="253096" beat="11.000015117157973" sync-position="759291" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="14052" type="audio" first-edit="nothing" source-0="11075" master-source-0="11075" channels="1">
         <Envelope>
-          <AutomationList automation-id="envelope" id="11098" interpolation-style="Exponential" state="Off">
+          <AutomationList automation-id="envelope" id="14058" interpolation-style="Exponential" state="Off">
             <events>0 1
-2024776 1.0000001000000001
+253098 1.0000001125000511
 </events>
           </AutomationList>
         </Envelope>
         <FadeIn>
-          <AutomationList automation-id="fadein" id="11094" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="14053" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
           </AutomationList>
         </FadeIn>
         <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="11095" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="14054" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </InverseFadeIn>
         <FadeOut>
-          <AutomationList automation-id="fadeout" id="11096" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="14055" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </FadeOut>
         <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="11097" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="14056" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="cliff bass-4.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="759291" length="253098" position="506194" beat="22.000117157974298" sync-position="759291" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="14078" type="audio" first-edit="nothing" source-0="11075" master-source-0="11075" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="14084" interpolation-style="Exponential" state="Off">
+            <events>0 1
+253098 1.0000001125000511
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="14079" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="14080" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="14081" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="14082" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="cliff bass-4.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="759291" length="253098" position="759292" beat="33.000219198790631" sync-position="759291" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="14089" type="audio" first-edit="nothing" source-0="11075" master-source-0="11075" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="14095" interpolation-style="Exponential" state="Off">
+            <events>0 1
+253098 1.0000001125000511
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="14090" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="14091" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="14092" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="14093" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="cliff bass-4.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="759291" length="253098" position="1012390" beat="44.000321239606954" sync-position="759291" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="14100" type="audio" first-edit="nothing" source-0="11075" master-source-0="11075" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="14106" interpolation-style="Exponential" state="Off">
+            <events>0 1
+253098 1.0000001125000511
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="14101" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="14102" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="14103" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="14104" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="cliff bass-4.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="759291" length="253098" position="1265488" beat="55.000423280423284" sync-position="759291" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="14111" type="audio" first-edit="nothing" source-0="11075" master-source-0="11075" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="14117" interpolation-style="Exponential" state="Off">
+            <events>0 1
+253098 1.0000001125000511
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="14112" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="14113" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="14114" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="14115" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="cliff bass-4.10" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="759291" length="253098" position="1518586" beat="66.000525321239607" sync-position="759291" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="14122" type="audio" first-edit="nothing" source-0="11075" master-source-0="11075" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="14128" interpolation-style="Exponential" state="Off">
+            <events>0 1
+253098 1.0000001125000511
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="14123" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="14124" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="14125" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="14126" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="cliff bass-4.11" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="759291" length="253098" position="1771684" beat="77.000627362055937" sync-position="759291" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="14133" type="audio" first-edit="nothing" source-0="11075" master-source-0="11075" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="14139" interpolation-style="Exponential" state="Off">
+            <events>0 1
+253098 1.0000001125000511
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="14134" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="14135" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="14136" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="14137" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="cliff bass-4.12" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="759291" length="253098" position="2024782" beat="88.000729402872267" sync-position="759291" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="14144" type="audio" first-edit="nothing" source-0="11075" master-source-0="11075" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="14150" interpolation-style="Exponential" state="Off">
+            <events>0 1
+253098 1.0000001125000511
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="14145" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="14146" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="14147" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="14148" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="cliff bass-4.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="759291" length="253098" position="2277880" beat="99.000831443688583" sync-position="759291" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="14155" type="audio" first-edit="nothing" source-0="11075" master-source-0="11075" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="14161" interpolation-style="Exponential" state="Off">
+            <events>0 1
+253098 1.0000001125000511
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="14156" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="14157" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="14158" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="14159" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="cliff bass-4.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="759291" length="253098" position="2530978" beat="110.00093348450491" sync-position="759291" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="14166" type="audio" first-edit="nothing" source-0="11075" master-source-0="11075" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="14172" interpolation-style="Exponential" state="Off">
+            <events>0 1
+253098 1.0000001125000511
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="14167" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="14168" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="14169" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="14170" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="cliff bass-4.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="759291" length="253098" position="2784076" beat="121.00103552532123" sync-position="759291" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="10" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="14177" type="audio" first-edit="nothing" source-0="11075" master-source-0="11075" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="14183" interpolation-style="Exponential" state="Off">
+            <events>0 1
+253098 1.0000001125000511
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="14178" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="14179" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="14180" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="14181" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
@@ -1717,6 +2213,45 @@
         </FadeOut>
         <InverseFadeOut>
           <AutomationList automation-id="fadeout" id="11055" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="11073" name="droped to d" type="audio" orig-track-id="10904" pgroup-id="2024-08-07 23.20.51" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="cliff bass-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="2024776" position="253096" beat="11.000015117157973" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="11093" type="audio" first-edit="nothing" source-0="11075" master-source-0="11075" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="11098" interpolation-style="Exponential" state="Off">
+            <events>0 1
+2024776 1.0000001000000001
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="11094" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="11095" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="11096" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="11097" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
@@ -1785,7 +2320,7 @@
       <ExportFormat id="13765a92-0ab8-464e-ac1b-a5320572bf7d"/>
       <ExportFilename>
         <Folder relative="1" path="export"/>
-        <Field name="label" enabled="1" value="sketch-idea"/>
+        <Field name="label" enabled="1" value="cliff-bass-part"/>
         <Field name="session" enabled="1"/>
         <Field name="snapshot" enabled="0"/>
         <Field name="timespan" enabled="1"/>
@@ -1822,15 +2357,17 @@
       <Window name="RPM-470" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-549" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-600" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-549-4895" visible="0" x-off="1019" y-off="0" x-size="769" y-size="455" custom-ui="1"/>
-      <Window name="P-549-4787" visible="0" x-off="994" y-off="0" x-size="818" y-size="386" custom-ui="1"/>
-      <Window name="PM-549-4895" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-549-4787" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-10904" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-235-303" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-235-303" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-470-543" visible="0" x-off="1003" y-off="0" x-size="800" y-size="434" custom-ui="1"/>
       <Window name="PM-470-543" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-10904" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-549-4895" visible="0" x-off="1019" y-off="0" x-size="769" y-size="455" custom-ui="1"/>
+      <Window name="P-549-4787" visible="0" x-off="994" y-off="0" x-size="818" y-size="386" custom-ui="1"/>
+      <Window name="PM-549-4895" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-549-4787" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-10904-14221" visible="0" x-off="880" y-off="0" x-size="769" y-size="455" custom-ui="1"/>
+      <Window name="PM-10904-14221" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 64" height="66" visible="1"/>
         <Object id="automation 68" height="66" visible="0"/>
@@ -1977,6 +2514,41 @@
         <Object id="strip 10904" visible="1">
           <Object id="processor 10934">
             <Object id="control 10908" visible="0"/>
+          </Object>
+          <Object id="processor 14221">
+            <Object id="control 14223" visible="0"/>
+            <Object id="control 14225" visible="0"/>
+            <Object id="control 14227" visible="0"/>
+            <Object id="control 14229" visible="0"/>
+            <Object id="control 14231" visible="0"/>
+            <Object id="control 14233" visible="0"/>
+            <Object id="control 14235" visible="0"/>
+            <Object id="control 14237" visible="0"/>
+            <Object id="control 14239" visible="0"/>
+            <Object id="control 14241" visible="0"/>
+            <Object id="control 14243" visible="0"/>
+            <Object id="control 14245" visible="0"/>
+            <Object id="control 14247" visible="0"/>
+            <Object id="control 14249" visible="0"/>
+            <Object id="control 14251" visible="0"/>
+            <Object id="control 14253" visible="0"/>
+            <Object id="control 14255" visible="0"/>
+            <Object id="control 14257" visible="0"/>
+            <Object id="control 14259" visible="0"/>
+            <Object id="control 14261" visible="0"/>
+            <Object id="control 14263" visible="0"/>
+            <Object id="control 14265" visible="0"/>
+            <Object id="control 14267" visible="0"/>
+            <Object id="control 14269" visible="0"/>
+            <Object id="control 14271" visible="0"/>
+            <Object id="control 14273" visible="0"/>
+            <Object id="control 14275" visible="0"/>
+            <Object id="control 14277" visible="0"/>
+            <Object id="control 14279" visible="0"/>
+            <Object id="control 14281" visible="0"/>
+            <Object id="control 14283" visible="0"/>
+            <Object id="control 14285" visible="0"/>
+            <Object id="InlineDisplay" visible="1"/>
           </Object>
         </Object>
       </GUIObjectState>
